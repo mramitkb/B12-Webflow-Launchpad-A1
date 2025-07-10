@@ -70,3 +70,32 @@ main{
     height: 330px;
     border-radius: 48px;
 }
+
+/* Productive Users Section */
+#productive-container{
+    margin-top: 116px;
+    background: rgba(78, 71, 255, 0.10);
+    border-radius: 24px;
+    height: 300px;
+    padding: 50px 80px;
+    text-align: center;
+}
+#productive-container h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+#count{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+#count h3{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+}
+#count p{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+}
