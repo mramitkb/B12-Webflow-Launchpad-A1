@@ -55,6 +55,18 @@ nav{
 
 /* Main Section */
 main{
-    max-width: 1140px;
-    margin: 0 auto;
+    margin: 0 140px;
+}
+
+/* Action Section */
+#action-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 116px;
+}
+#action-img{
+    width: 400px;
+    height: 330px;
+    border-radius: 48px;
 }
