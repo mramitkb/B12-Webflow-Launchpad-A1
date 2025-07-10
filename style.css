@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+.inter-font{
+    font-family: "Inter", sans-serif;
+}
+
+/* Common Styles */
+.primary-btn{
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.primary-btn:hover{
+    background-color: green;
+}
+.logo{
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+/* Header Section */
+header{
+    background: url("./resources/Assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 700px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 140px;
+}
+#banner{
+    margin-top: 170px;
+    text-align: center;
+}
+#banner h1{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
