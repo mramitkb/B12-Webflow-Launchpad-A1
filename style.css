@@ -31,7 +31,7 @@
 
 /* Header Section */
 header{
-    background: url("./resources/Assets/Hero-bg.png");
+    background: url("./resources/assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -51,4 +51,10 @@ nav{
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 }
