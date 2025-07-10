@@ -55,7 +55,8 @@ nav{
 
 /* Main Section */
 main{
-    margin: 0 140px;
+    padding: 0 140px;
+    background-color: #F5F8FF;
 }
 
 /* Action Section */
@@ -63,7 +64,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 116px;
+    padding-top: 116px;
 }
 #action-img{
     width: 400px;
@@ -99,3 +100,40 @@ main{
     color: rgba(0, 0, 0, 0.50);
     font-size: 20px;
 }
+
+
+
+
+
+
+
+
+/* Get in Touch Section */
+#get-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0px;
+}
+#get-container h1{
+    font-size: 97px;
+    font-weight: 700px;
+}
+#get-container label{
+    font-size: 18px;
+    font-weight: 500;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#email, #name, #message{
+    padding: 20px 32px;
+    width: 500px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+/* Footer Section */
