@@ -66,6 +66,10 @@ main{
     justify-content: space-between;
     padding-top: 116px;
 }
+#action-container h1{
+    font-size: 42px;
+    font-weight: 700;
+}
 #action-img{
     width: 400px;
     height: 330px;
@@ -131,6 +135,8 @@ main{
     gap: 20px;
     margin-top: 10px;
 }
+
+/* Extra Section */
 #extra{
     text-align: center;
     margin-top: 140px;
@@ -146,9 +152,6 @@ main{
     color: #808080;
     margin: 20px 0;
 }
-
-
-
 
 /* Get in Touch Section */
 #get-container{
