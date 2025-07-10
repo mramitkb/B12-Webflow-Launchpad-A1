@@ -25,7 +25,7 @@
 }
 .logo{
     color: #4E47FF;
-    font-size: 34px;
+    font-size: 36px;
     font-weight: 900;
 }
 
@@ -137,3 +137,32 @@ form{
 }
 
 /* Footer Section */
+footer{
+    background: white;
+    height: 430px;
+    text-align: center;
+    padding: 100px 400px;
+}
+footer h1{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 900;
+}
+footer p{
+    margin: 30px 0;
+}
+footer p, footer a{
+    color: #8888A0;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+footer li{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+}
