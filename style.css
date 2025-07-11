@@ -21,7 +21,8 @@
     cursor: pointer;
 }
 .primary-btn:hover{
-    background-color: green;
+    background-color: #36D0AA;
+    color: black;
 }
 .logo{
     color: #4E47FF;
@@ -50,7 +51,7 @@ nav{
 #banner h1{
     font-size: 65px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 /* Main Section */
@@ -71,8 +72,8 @@ main{
     font-weight: 700;
 }
 #action-img{
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 350px;
     border-radius: 48px;
 }
 
@@ -103,6 +104,7 @@ main{
 #count p{
     color: rgba(0, 0, 0, 0.50);
     font-size: 20px;
+    font-family: "Inter", sans-serif;
 }
 
 #review-container{
@@ -168,6 +170,7 @@ main{
 #get-container label{
     font-size: 18px;
     font-weight: 500;
+    font-family: "Inter", sans-serif;
 }
 form{
     display: flex;
@@ -205,10 +208,17 @@ footer ul{
     align-items: center;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 20px;
 }
 footer li{
     list-style: none;
 }
 footer a{
     text-decoration: none;
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+}
+small{
+    font-family: "Inter", sans-serif;
+    color: gray;
 }
