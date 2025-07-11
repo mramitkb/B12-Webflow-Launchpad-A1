@@ -33,10 +33,6 @@
 /* Header Section */
 header{
     background: url("./resources/assets/Hero-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-    height: 700px;
 }
 nav{
     display: flex;
@@ -47,6 +43,7 @@ nav{
 #banner{
     margin-top: 170px;
     text-align: center;
+    padding-bottom: 100px;
 }
 #banner h1{
     font-size: 65px;
